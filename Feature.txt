@@ -4,3 +4,11 @@ git checkout develop
 git pull
 git checkout -b feature/myFeature
 git push -u origin feature/myFeature
+
+Quand on a fini les développements de la feature, on la rappatrie sur la branche develop.
+Bien faire attention à être à jour sur les deux branches, au cas où quelqu'un d'autre a travaillé sur une des deux branches.
+git commit -m "finishing my feature"
+git push
+git checkout develop
+git pull
+git merge feature/myFeature
