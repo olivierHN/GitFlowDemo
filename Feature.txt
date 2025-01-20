@@ -1,0 +1,6 @@
+On part toujours de la develop pour créer une feature.
+
+git checkout develop
+git pull
+git checkout -b feature/myFeature
+git push -u origin feature/myFeature
