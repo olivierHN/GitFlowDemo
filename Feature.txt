@@ -12,3 +12,6 @@ git push
 git checkout develop
 git pull
 git merge feature/myFeature
+
+Si le merge s'est bien terminé, supprimer la branche feature.
+git branch -d feature/myFeature

@@ -1,0 +1,7 @@
+On part toujours de la develop pour créer une release.
+C'est cette branche qu'on déploie en pré-prod pour les derniers tests de validation par les métiers, avant déploiement en prod.
+
+git checkout develop
+git pull
+git checkout -b release/1.0.0
+git push -u origin release/1.0.0
